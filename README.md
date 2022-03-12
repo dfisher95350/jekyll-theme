@@ -4,6 +4,7 @@ This project was seeded with:
 ```shell
 $ bundle config set --local path 'vendor/bundle'
 $ jekyll new .
+$ bundle exec jekyll new-theme
 ```
 
 ## Resources
