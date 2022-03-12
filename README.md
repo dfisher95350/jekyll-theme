@@ -1,4 +1,11 @@
 
+This project was seeded with:
+
+```shell
+$ bundle config set --local path 'vendor/bundle'
+$ jekyll new .
+```
+
 ## Resources
 
 1. [GitHub Pages Documentation](https://docs.github.com/en/pages) @ github
