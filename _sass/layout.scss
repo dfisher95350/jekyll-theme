@@ -2,11 +2,15 @@
 
 .outer {
   width: 100%;
+  color: $standard-white;
+  background: $black-light-plus-1;
 }
 
 .inner {
   position: relative;
-  max-width: 720px;
-  padding: 20px 10px;
+  max-width: 50rem;
+  padding: 1rem 4rem;
   margin: 0 auto;
+  color: $standard-white;
+  background: $black-light-plus-2;
 }
