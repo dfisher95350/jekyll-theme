@@ -1,5 +1,12 @@
 @import './color';
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .outer {
   color: $standard-white;
   background: $black-light-plus-1;
