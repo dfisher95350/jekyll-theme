@@ -38,7 +38,7 @@ html, body {
  * Applied to a div where class is background-wrapper.
  */
 .background-wrapper {
-  background: linear-gradient(#111, #222);
+  background: linear-gradient($aquamarine-to-black-gradient-20, $marineblue-dark-8);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -56,7 +56,7 @@ html, body {
   left: 50%;
   height: 100vh;
   width: 80rem;
-  background: linear-gradient(#222, #111);
+  background: linear-gradient($marineblue-dark-8, $aquamarine-to-black-gradient-20);
   // Skew the div, making a sash shape.
   transform: skew(45deg, 0) translateX(-85%);
   // Send the div into the background.

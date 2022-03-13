@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $aquamarine-to-gray-gradient-11;
+  color: $triad-2-marineblue-2;
   font-weight: 500;
   font-family: 'Teko', sans-serif;
   letter-spacing: 0.05em;
@@ -72,7 +72,7 @@ pre {
 code {
   padding: 0.5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-  line-height: 1.15;
+  line-height: 1;
 }
 
 pre code {
@@ -138,10 +138,8 @@ a:hover, a:focus {
 }
 
 .site-description {
-  color: $triad-1-aquamarine-2;
+  color: $triad-1-aquamarine-3;
   margin: 0 0 0 0;
   font-weight: 500;
-  font-family: 'Teko', sans-serif;
   font-size: 1.5rem;
-  letter-spacing: 0.05em;
 }
