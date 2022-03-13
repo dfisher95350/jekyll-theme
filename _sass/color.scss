@@ -1,45 +1,23 @@
 
-$standard-black: #000000;
-$standard-silver: #c0c0c0;
-$standard-gray: #808080;
-$standard-white: #ffffff;
-$standard-yellow: #ffff00;
-$standard-teal: #008080;
-$standard-aqua: #00ffff;
 $standard-orange: #ffa500;
 $standard-antiquewhite: #faebd7;
-$standard-aquamarine: #7fffd4;
 $standard-azure: #f0ffff;
 $standard-beige: #f5f5dc;
 $standard-bisque: #ffe4c4;
 $standard-blanchedalmond: #ffebcd;
 $standard-brown: #a52a2a;
 $standard-burlywood: #deb887;
-$standard-chartreuse: #7fff00;
 $standard-chocolate: #d2691e;
 $standard-coral: #ff7f50;
 $standard-cornsilk: #fff8dc;
-$standard-crimson: #dc143c;
-$standard-cyan: #00ffff;
-$standard-darkcyan: #008b8b;
 $standard-darkgoldenrod: #b8860b;
-$standard-darkgray: #a9a9a9;
-$standard-darkgrey: #a9a9a9;
 $standard-darkkhaki: #bdb76b;
-$standard-darkmagenta: #8b008b;
 $standard-darkorange: #ff8c00;
 $standard-darksalmon: #e9967a;
-$standard-darkslategray: #2f4f4f;
-$standard-darkslategrey: #2f4f4f;
-$standard-darkturquoise: #00ced1;
-$standard-dimgray: #696969;
-$standard-firebrick: #b22222;
 $standard-floralwhite: #fffaf0;
 $standard-gainsboro: #dcdcdc;
 $standard-ghostwhite: #f8f8ff;
-$standard-gold: #ffd700;
 $standard-goldenrod: #daa520;
-$standard-grey: #808080;
 $standard-honeydew: #f0fff0;
 $standard-ivory: #fffff0;
 $standard-khaki: #f0e68c;
@@ -47,26 +25,14 @@ $standard-lavender: #e6e6fa;
 $standard-lavenderblush: #fff0f5;
 $standard-lemonchiffon: #fffacd;
 $standard-lightcoral: #f08080;
-$standard-lightcyan: #e0ffff;
-$standard-lightgoldenrodyellow: #fafad2;
-$standard-lightgray: #d3d3d3;
-$standard-lightgrey: #d3d3d3;
 $standard-lightsalmon: #ffa07a;
-$standard-lightslategray: #778899;
-$standard-lightslategrey: #778899;
-$standard-lightyellow: #ffffe0;
 $standard-linen: #faf0e6;
-$standard-magenta #ff00ff;
-$standard-mediumaquamarine: #66cdaa;
-$standard-mediumturquoise: #48d1cc;
 $standard-mintcream: #f5fffa;
 $standard-mistyrose: #ffe4e1;
 $standard-moccasin: #ffe4b5;
 $standard-navajowhite: #ffdead;
 $standard-oldlace: #fdf5e6;
-$standard-olivedrab: #6b8e23;
 $standard-palegoldenrod: #eee8aa;
-$standard-paleturquoise: #afeeee;
 $standard-papayawhip: #ffefd5;
 $standard-peachpuff: #ffdab9;
 $standard-peru: #cd853f;
@@ -76,12 +42,9 @@ $standard-salmon: #fa8072;
 $standard-sandybrown: #f4a460;
 $standard-seashell: #fff5ee;
 $standard-sienna: #a0522d;
-$standard-slategray: #708090;
 $standard-snow: #fffafa;
 $standard-tan: #d2b48c;
 $standard-thistle: #d8bfd8;
-$standard-tomato: #ff6347;
-$standard-turquoise: #40e0d0;
 $standard-wheat: #f5deb3;
 $standard-whitesmoke: #f5f5f5;
 
@@ -108,51 +71,92 @@ $standard-skyblue: #87ceeb;
 $standard-slateblue: #6a5acd;
 $standard-steelblue: #4682b4;
 
+// CYAN
+
+$standard-aqua: #00ffff;
+$standard-aquamarine: #7fffd4;
+$standard-cyan: #00ffff;
+$standard-darkcyan: #008b8b;
+$standard-darkturquoise: #00ced1;
+$standard-lightcyan: #e0ffff;
+$standard-mediumaquamarine: #66cdaa;
+$standard-mediumturquoise: #48d1cc;
+$standard-paleturquoise: #afeeee;
+$standard-teal: #008080;
+$standard-turquoise: #40e0d0;
+
+// GRAY
+
+$standard-black: #000000;
+$standard-darkgray: #a9a9a9;
+$standard-darkslategray: #2f4f4f;
+$standard-dimgray: #696969;
+$standard-gray: #808080;
+$standard-lightgray: #d3d3d3;
+$standard-lightslategray: #778899;
+$standard-silver: #c0c0c0;
+$standard-slategray: #708090;
+$standard-white: #ffffff;
+
 // GREEN
 
-$standard-green: #008000;
-$standard-lime: #00ff00;
-$standard-olive: #808000;
+$standard-chartreuse: #7fff00;
 $standard-darkgreen: #006400;
 $standard-darkolivegreen: #556b2f;
 $standard-darkseagreen: #8fbc8f;
 $standard-forestgreen: #228b22;
-$standard-greenyellow: #adff2f;
+$standard-green: #008000;
 $standard-lawngreen: #7cfc00;
 $standard-lightgreen: #90ee90;
 $standard-lightseagreen: #20b2aa;
+$standard-lime: #00ff00;
 $standard-limegreen: #32cd32;
 $standard-mediumseagreen: #3cb371;
 $standard-mediumspringgreen: #00fa9a;
+$standard-olive: #808000;
+$standard-olivedrab: #6b8e23;
 $standard-palegreen: #98fb98;
 $standard-seagreen: #2e8b57;
 $standard-springgreen: #00ff7f;
 $standard-yellowgreen: #9acd32;
 
-// PURPLE
+// MAGENTA
 
-$standard-purple: #800080;
-$standard-fuchsia: #ff00ff;
 $standard-blueviolet: #8a2be2;
+$standard-darkmagenta: #8b008b;
 $standard-darkorchid: #9932cc;
 $standard-darkviolet: #9400d3;
 $standard-deeppink: #ff1493;
+$standard-fuchsia: #ff00ff;
 $standard-hotpink: #ff69b4;
 $standard-indigo: #4b0082;
 $standard-lightpink: #ffb6c1;
+$standard-magenta #ff00ff;
 $standard-mediumorchid: #ba55d3;
 $standard-mediumpurple: #9370db;
 $standard-orchid: #da70d6;
 $standard-pink: #ffc0cb;
 $standard-plum: #dda0dd;
+$standard-purple: #800080;
 $standard-violet: #ee82ee;
 
 // RED
 
-$standard-maroon: #800000;
-$standard-red: #ff0000;
+$standard-crimson: #dc143c;
 $standard-darkred: #8b0000;
+$standard-firebrick: #b22222;
 $standard-indianred: #cd5c5c;
+$standard-maroon: #800000;
 $standard-mediumvioletred: #c71585;
 $standard-orangered: #ff4500;
 $standard-palevioletred: #db7093;
+$standard-red: #ff0000;
+$standard-tomato: #ff6347;
+
+// YELLOW
+
+$standard-greenyellow: #adff2f;
+$standard-gold: #ffd700;
+$standard-lightgoldenrodyellow: #fafad2;
+$standard-lightyellow: #ffffe0;
+$standard-yellow: #ffff00;
