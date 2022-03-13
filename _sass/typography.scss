@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $triad-1-aquamarine-3;
+  color: $triad-1-magenta-2;
   margin: 1rem 0 0.5rem 0;
   font-weight: 500;
   font-family: 'Teko', sans-serif;
@@ -66,8 +66,9 @@ pre {
 
 code {
   padding: 0.5rem;
-  margin: 0 0.5rem;
+  //margin: 0 0.5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  line-height: 1.15;
 }
 
 pre code {

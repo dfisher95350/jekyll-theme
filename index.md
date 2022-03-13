@@ -48,7 +48,10 @@ Some code:
 
 ```shell
 $ bundle exec jekyll serve
+$
 ```
+
+Some `inline` code.
 
 An ordered list:
 
