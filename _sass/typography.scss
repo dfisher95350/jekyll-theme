@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $mediumaquamarine-light-plus-2;
+  color: $triad-1-aquamarine-3;
   margin: 1rem 0 0.5rem 0;
   font-weight: 500;
   font-family: 'Teko', sans-serif;
@@ -49,7 +49,7 @@ div {
 }
 
 pre, code {
-  color: $amber-light-plus-3;
+  color: $triad-1-amber-4;
   background-color: $black-light-plus-1;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 0.9rem;
@@ -105,7 +105,7 @@ dl p {
 
 a {
   text-decoration: none;
-  color: $mediumaquamarine-light-plus-1;
+  color: $triad-1-aquamarine-3;
   text-shadow: none;
   transition: color 0.5s ease;
   transition: text-shadow 0.5s ease;
@@ -121,4 +121,22 @@ a {
 
 a:hover, a:focus {
   text-decoration: underline;
+}
+
+.site-title {
+  color: $triad-1-aquamarine-2;
+  margin: 0 0 0 0;
+  font-weight: 700;
+  font-family: 'Teko', sans-serif;
+  font-size: 4rem;
+  letter-spacing: 0.05em;
+}
+
+.site-description {
+  color: $triad-1-aquamarine-2;
+  margin: 0 0 0 0;
+  font-weight: 500;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
 }
