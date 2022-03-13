@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    jekyll-theme (0.1.0)
+      jekyll (~> 4.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -72,6 +78,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.2.2)
   jekyll-feed (~> 0.12)
+  jekyll-theme!
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
