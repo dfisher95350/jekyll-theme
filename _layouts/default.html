@@ -12,32 +12,37 @@
           rel="stylesheet">
 </head>
 <body>
+<div id="page-container" class="page-container">
+    <div id="background-wrapper" class="background-wrapper"></div>
 
-<!-- HEADER -->
-<div id="header_wrap" class="outer">
-    <header class="inner">
-        <div id="project_title" class="site-title">{{ site.title | default: site.github.repository_name }}</div>
-        <div id="project_tagline" class="site-description">{{ site.description | default: site.github.project_tagline }}</div>
-    </header>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+            <div id="project_title" class="site-title">{{ site.title | default: site.github.repository_name }}</div>
+            <div id="project_tagline" class="site-description">{{ site.description | default:
+                site.github.project_tagline }}
+            </div>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+            {{ content }}
+        </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+        <footer class="inner">
+            <p class="copyright">
+                Copyright 2022 <a href="https://dfisher95350.github.io/">Douglas J Fisher</a>.
+                Site maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
+                Published with <a href="https://pages.github.com">GitHub Pages</a>.
+            </p>
+        </footer>
+    </div>
+
 </div>
-
-<!-- MAIN CONTENT -->
-<div id="main_content_wrap" class="outer">
-    <section id="main_content" class="inner">
-        {{ content }}
-    </section>
-</div>
-
-<!-- FOOTER  -->
-<div id="footer_wrap" class="outer">
-    <footer class="inner">
-        <p class="copyright">
-            Copyright 2022 <a href="https://dfisher95350.github.io/">Douglas J Fisher</a>.
-            Site maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
-            Published with <a href="https://pages.github.com">GitHub Pages</a>.
-        </p>
-    </footer>
-</div>
-
 </body>
 </html>
