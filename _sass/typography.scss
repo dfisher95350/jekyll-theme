@@ -72,3 +72,31 @@ pre code {
   display: block;
   box-shadow: none;
 }
+
+ul, ol, dl {
+
+}
+
+ol {
+  list-style-position: inside;
+  list-style: decimal;
+}
+
+ul {
+  list-style-position: inside;
+  list-style: disc;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dl dd {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+dl p {
+  padding-left: 20px;
+  font-style: italic;
+}

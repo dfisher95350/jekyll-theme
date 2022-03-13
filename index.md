@@ -49,3 +49,15 @@ Some code:
 ```shell
 $ bundle exec jekyll serve
 ```
+
+An ordered list:
+
+1. item one
+2. item two
+3. item three
+
+An unordered list:
+
+- item one
+- item two
+- item three
