@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 38px;
-  font-weight: 700;
 }
 
 h2 {
@@ -45,4 +44,31 @@ p {
 
 div {
 
+}
+
+pre, code {
+  color: #222;
+  background-color: #ccc;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 0.9em;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+pre {
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  overflow: auto;
+}
+
+code {
+  padding: 3px;
+  margin: 0 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+pre code {
+  display: block;
+  box-shadow: none;
 }
