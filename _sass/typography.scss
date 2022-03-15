@@ -15,39 +15,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  border-bottom: solid 2px $mediumaquamarine-light-plus-4;
-  color: $mediumaquamarine-light-plus-4;
+  border-bottom: solid 2px $dark-cyan-light-plus-6;
+  color: $dark-cyan-light-plus-6;
   font-size: 3rem;
   margin: 2rem 0 2rem 0;
 }
 
 h2 {
-  color: $marineblue2-light-5;
+  color: $dark-cyan-light-plus-5;
   font-size: 2.5rem;
-  margin: 1.75rem 0 0 0;
+  margin: 2rem 0 0 0;
 }
 
 h3 {
-  color: $marineblue2-light-5;
+  color: $dark-cyan-light-plus-4;
   font-size: 2rem;
   margin: 1.25rem 0 0 0;
 }
 
 h4 {
-  color: $marineblue2-light-5;
+  color: $dark-cyan-light-plus-4;
   font-size: 1.75rem;
   margin: 1.25rem 0 0 0;
 }
 
 h5 {
-  color: $marineblue2-light-5;
-  font-size: 1.5rem;
+  color: $marineblue2-light-4;
+  font-size: 1.55rem;
   margin: 1.25rem 0 0 0;
 }
 
 h6 {
-  color: $marineblue2-light-5;
-  font-size: 1.25rem;
+  color: $marineblue2-light-4;
+  font-size: 1.35rem;
   margin: 1.25rem 0 0 0;
 }
 
@@ -116,7 +116,7 @@ dl p {
 
 a {
   text-decoration: none;
-  color: $triad-1-amber-3;
+  color: $triad-2-gold-3;
   text-shadow: none;
   transition: color 0.5s ease;
   transition: text-shadow 0.5s ease;
