@@ -168,3 +168,22 @@ blockquote {
 .copyright {
   font-size: 0.9rem;
 }
+
+.text_callout {
+  background-color: $marineblue-dark-3;
+  border: 2px solid $marineblue;
+  border-radius: 0.25rem;
+  color: $dark-cyan-light-plus-6;
+  display: block;
+  padding: 0.7rem 1.7rem 0.7rem 1.7rem;
+  margin: 1.25rem 0 1.25rem 0;
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.text_callout b {
+  color: #00B36B;
+}
