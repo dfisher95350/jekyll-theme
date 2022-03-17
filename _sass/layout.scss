@@ -31,41 +31,64 @@ html, body {
   background: $black-light-plus-2;
 }
 
-/*
- * This used to wrap all page content except the footer,
- * so that the footer can be shoved all the way to the bottom
- * of each page and will always stick there.
- */
+.inner-b {
+  position: relative;
+  max-width: 55rem;
+  padding: 1rem 5rem;
+  margin: 0 auto;
+  color: $black-light-plus-8;
+  background: $black-light-plus-2;
+}
+
+.inner-content-b {
+  font-weight: 700;
+  position: relative;
+  max-width: 55rem;
+  padding: 1rem 5rem;
+  margin: 0 auto;
+  color: $black-light-plus-1;
+  background: $marineblue-light-8;
+}
+
+.inner-b a {
+  color: $marineblue2-light-4;
+}
+
+.inner-content-b a {
+  color: $marineblue-light-1;
+}
+
+.inner-content-b h1 {
+  color: $marineblue2-light-1;
+  border-bottom: solid 2px $marineblue2-light-2;
+}
+
+.inner-content-b h2 {
+  color: $marineblue2-light-2;
+}
+
+.inner-content-b h3 {
+  color: $marineblue2-light-2;
+}
+
+.inner-content-b h4 {
+  color: $marineblue2-light-2;
+}
+
+.inner-content-b h5 {
+  color: $marineblue2-light-2;
+}
+
+.inner-content-b h6 {
+  color: $marineblue2-light-2;
+}
+
+  /*
+   * This used to wrap all page content except the footer,
+   * so that the footer can be shoved all the way to the bottom
+   * of each page and will always stick there.
+   */
 .page-container {
   position: relative;
   min-height: 100vh;
-}
-
-/*
- * Applied to a div where class is background-wrapper.
- */
-.background-wrapper {
-  background: linear-gradient($aquamarine-to-black-gradient-20, $marineblue-dark-8);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
-
-/*
- * Applied to a div where class is background-wrapper.
- */
-.background-wrapper::after {
-  position: absolute;
-  content: '';
-  left: 50%;
-  height: 100vh;
-  width: 80rem;
-  background: linear-gradient($marineblue-dark-8, $aquamarine-to-black-gradient-20);
-  // Skew the div, making a sash shape.
-  transform: skew(45deg, 0) translateX(-85%);
-  // Send the div into the background.
-  z-index: -2;
 }

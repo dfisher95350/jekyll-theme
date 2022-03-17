@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   font-size: 1rem;
   font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-weight: 500;
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
 }
@@ -150,7 +151,7 @@ blockquote {
 }
 
 .site-title {
-  color: $triad-1-aquamarine-2;
+  color: $marineblue2-light-4;
   margin: 0 0 0 0;
   font-weight: 700;
   font-family: 'Teko', sans-serif;
@@ -159,9 +160,8 @@ blockquote {
 }
 
 .site-description {
-  color: $triad-1-aquamarine-3;
   margin: 0 0 0 0;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.5rem;
 }
 
